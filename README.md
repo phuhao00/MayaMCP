@@ -1,4 +1,6 @@
 # Maya MCP
+[![smithery badge](https://smithery.ai/badge/@phuhao00/mayamcp)](https://smithery.ai/server/@phuhao00/mayamcp)
+
 Model Context Protocol (MCP) server implementation for Autodesk Maya
 
 Tested with Maya 2023, 2025.
@@ -25,6 +27,15 @@ Here is a list of some of the tools registered with Maya MCP.
 
 ## Installation
 
+### Installing via Smithery
+
+To install Maya MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@phuhao00/mayamcp):
+
+```bash
+npx -y @smithery/cli install @phuhao00/mayamcp --client claude
+```
+
+### Manual Installation
 Maya MCP server is designed so there is only an MCP server and doesn't require anything to be installed within Maya. This is helpful since you can easily use different versions of Maya and not have to worry about coordinating version changes. This is done by taking advantage of the default Command Port Maya opens up for MEL scripting. 
 
 MCP requires Python 3.10 or greater. Currently using pip as the package requirements are minimal. To install the virtual environment:
@@ -126,5 +137,4 @@ MIT
 ## Important Note
 
 This project was done on my personal time and equipment to learn about MCP. The project is not affiliated with my current employer and does not represent their work or interests. 
-
 
